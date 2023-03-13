@@ -125,5 +125,6 @@ public class MyLinkedList<T> {
 		
 		
 	}
-	
+	//TODO makeEmpty
+	//TODO sort, retrieve, search, retrieveNextNeigbours
 }
