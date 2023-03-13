@@ -76,6 +76,16 @@ public class MyLinkedList<T> {
 		
 	}
 	
-	
+	public void print() {
+		//TODO verify if list is empty
+		MyNode tempNode = first;
+		while(tempNode != null) {
+			System.out.print(tempNode.getElement() + " ");
+			tempNode = tempNode.getNext();
+		}
+		
+		System.out.println();
+				
+	}
 	
 }
